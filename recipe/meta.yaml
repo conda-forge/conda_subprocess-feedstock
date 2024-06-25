@@ -1,5 +1,5 @@
 {% set name = "conda_subprocess" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/conda_subprocess-{{ version }}.tar.gz
-  sha256: 4df5fa27a727696e69a5e8349f73f90e5be440891dd28be1cd3cb6e9c62ce23a
+  sha256: 2ace77e6c7cc2081006f370928835553bb4fc0e71362c1a0a309647823e2b472
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >=3.9
-    - conda >=22.9.0,<=24.1.1
+    - conda >=22.9.0,<=24.5.0
 
 test:
   imports:
