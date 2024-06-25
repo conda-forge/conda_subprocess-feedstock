@@ -1,5 +1,5 @@
 {% set name = "conda_subprocess" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/conda_subprocess-{{ version }}.tar.gz
-  sha256: d03c6428ea3bde709c5f1fdb0e58bebaa86e1f0e1d1acece1b55d75814c33902
+  sha256: 4df5fa27a727696e69a5e8349f73f90e5be440891dd28be1cd3cb6e9c62ce23a
 
 build:
   noarch: python
