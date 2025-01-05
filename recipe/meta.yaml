@@ -20,6 +20,7 @@ requirements:
     - conda
     - versioneer
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - conda >=22.9.0,<=24.7.1
