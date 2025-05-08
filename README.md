@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-conda_subprocess-green.svg)](https://anaconda.org/conda-forge/conda_subprocess) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/conda_subprocess.svg)](https://anaconda.org/conda-forge/conda_subprocess) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/conda_subprocess.svg)](https://anaconda.org/conda-forge/conda_subprocess) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/conda_subprocess.svg)](https://anaconda.org/conda-forge/conda_subprocess) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-conda__subprocess-green.svg)](https://anaconda.org/conda-forge/conda_subprocess) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/conda_subprocess.svg)](https://anaconda.org/conda-forge/conda_subprocess) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/conda_subprocess.svg)](https://anaconda.org/conda-forge/conda_subprocess) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/conda_subprocess.svg)](https://anaconda.org/conda-forge/conda_subprocess) |
 
 Installing conda_subprocess
 ===========================
