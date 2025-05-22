@@ -18,9 +18,9 @@ requirements:
   host:
     - python {{ python_min }}
     - conda
-    - versioneer
     - pip
-    - setuptools
+    - hatchling
+    - hatch-vcs
   run:
     - python >={{ python_min }}
     - conda >=22.9.0,<=25.3.1
