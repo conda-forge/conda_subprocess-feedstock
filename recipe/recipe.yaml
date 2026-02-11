@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: conda_subprocess
-  version: "0.0.10"
+  version: "0.0.11"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/conda_subprocess-${{ version }}.tar.gz
-  sha256: 0d0c9de1744a0020dab5131d8e07d7576b0c7bb40252ad6c237714f914467628
+  sha256: c474b041ea745ff52ab58c904a800b208db13c00a9139268ba70e60cd3aa925d
 
 build:
   number: 0
