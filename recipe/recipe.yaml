@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: conda_subprocess
-  version: 0.0.12
+  version: 0.1.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/conda_subprocess-${{ version }}.tar.gz
-  sha256: 4d03a33c97259ca032fbb051ea1901deddec768f9c81e309bfb9bc64754de7c9
+  sha256: f3b34f22704d6cb7c43a87817d12c69607d89049a41382de5f04559a92c54e7c
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - hatch-vcs
   run:
     - python >=${{ python_min }}
-    - conda >=26.3.1,<=26.5.2
+    - conda >=26.3.1,<26.8.0
 tests:
   - python:
       imports:
